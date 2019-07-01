@@ -51,5 +51,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Inherit from the proprietary version
--include vendor/xiaomi/tucana/BoardConfigVendor.mk
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Inherit from proprietary files
+include vendor/xiaomi/tucana/BoardConfigVendor.mk
