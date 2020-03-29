@@ -5,12 +5,15 @@
 #
 
 # Display density
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 440
 
 # Inherit from sm6150-common
 -include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/tucana
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tucana

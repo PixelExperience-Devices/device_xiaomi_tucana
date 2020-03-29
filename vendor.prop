@@ -1,0 +1,17 @@
+# Audio
+persist.vendor.audio.hifi=false
+
+# Camera
+persist.camera.sat.fallback.dist=40
+persist.camera.sat.fallback.dist.d=10
+persist.camera.sat.fallback.luxindex=330
+persist.camera.sat.fallback.lux.d=50
+# RECHECK ME
+persist.vendor.camera.enableNCSService=TRUE
+persist.vendor.camera.enableTOFInterface=TRUE
+persist.radio.VT_CAM_INTERFACE=1
+
+# Fingerprint
+persist.vendor.sys.fp.fod.location.X=445
+persist.vendor.sys.fp.fod.location.Y=1715
+persist.vendor.sys.fp.fod.size=190
