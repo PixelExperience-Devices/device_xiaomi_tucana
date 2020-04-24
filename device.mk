@@ -13,6 +13,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/tucana/tucana-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TucanaWifiOverlay
+
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
