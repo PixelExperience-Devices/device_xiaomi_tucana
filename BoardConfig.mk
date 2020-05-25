@@ -24,6 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := tucana
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tucana
 TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
 
+# FOD
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.tucana
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
