@@ -4,11 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Display density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-TARGET_SCREEN_DENSITY := 440
-
 # Inherit from sm6150-common
 -include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
