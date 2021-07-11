@@ -133,7 +133,7 @@ Return<void> FingerprintInscreen::onRelease() {
 }
 
 Return<void> FingerprintInscreen::onShowFODView() {
-    int arg[2] = {10,0};
+    int arg[2] = {10,1};
     ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
 
     return Void();
