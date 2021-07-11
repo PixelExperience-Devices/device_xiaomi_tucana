@@ -76,8 +76,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    TucanaChinaWifiOverlay \
-    TucanaGlobalWifiOverlay
+    TucanaWifiOverlay
 
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
