@@ -14,8 +14,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -33,9 +32,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150-ext \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana
-
-PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # Fstab
 PRODUCT_COPY_FILES += \
