@@ -242,4 +242,10 @@
 
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">73.0px</dimen> 
+
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
 </resources>
