@@ -33,10 +33,6 @@ PRODUCT_PACKAGES += \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana
 
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
-
 # NFC
 PRODUCT_PACKAGES += \
     SecureElement
