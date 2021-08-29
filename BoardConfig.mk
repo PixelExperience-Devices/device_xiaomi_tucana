@@ -26,9 +26,6 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.tucana
 TARGET_USES_FOD_ZPOS := true
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := tucana_defconfig
 
