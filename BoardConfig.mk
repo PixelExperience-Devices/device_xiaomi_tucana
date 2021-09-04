@@ -27,6 +27,7 @@ TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.tucana
 TARGET_USES_FOD_ZPOS := true
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_CONFIG := tucana_defconfig
 
 # Partitions
