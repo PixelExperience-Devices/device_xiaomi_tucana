@@ -29,10 +29,9 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
-TARGET_HAS_FOD := true
+TARGET_HAS_UDFPS := true
 
 # NFC
 PRODUCT_PACKAGES += \
