@@ -30,7 +30,8 @@ TARGET_KERNEL_CONFIG := tucana_defconfig
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # UDFPS
-TARGET_USES_UDFPS_ZPOS := true
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.xiaomi_sm6150
+TARGET_USES_FOD_ZPOS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/tucana/BoardConfigVendor.mk
